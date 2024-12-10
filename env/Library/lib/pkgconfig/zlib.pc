@@ -1,0 +1,13 @@
+prefix=P:/computer language/ML/env/Library
+exec_prefix=P:/computer language/ML/env/Library
+libdir=P:/computer language/ML/env/Library/lib
+sharedlibdir=P:/computer language/ML/env/Library/lib
+includedir=P:/computer language/ML/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
